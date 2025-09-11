@@ -1,0 +1,3 @@
+outfitMatching(Outfit(Hat(Black()), Shirt(Black()), Pants(Black()), Shoes(Black()))) 
+outfitMatching(Outfit(Hat(White()), Shirt(White()), Pants(White()), Shoes(White())))
+outfitMatching(Outfit(Hat(Black()), Shirt(Black()), Pants(Black()), Shoes(White())))
