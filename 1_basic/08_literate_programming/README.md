@@ -161,6 +161,7 @@ as a K definition. Identify why it fails to compile. Then pass an appropriate
 in a literate style. Consider what text might be appropriate to turn the
 resulting markdown file into documentation for your calculator.
 
+
 ## Next lesson
 
 Once you have completed the above exercises, you can continue to
