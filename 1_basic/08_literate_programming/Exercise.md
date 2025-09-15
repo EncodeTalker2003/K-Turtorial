@@ -22,6 +22,7 @@ module LESSON-07-EX2-SYNTAX
 imports DOMAINS
 
   syntax AExp ::= Int 
+				| "(" AExp ")" [bracket]
 				> AExp "*" AExp [left, function]
 				| AExp "/" AExp [left, function]
 				> AExp "+" AExp [left, function]
@@ -36,10 +37,4 @@ module LESSON-07-EX2
   rule I1 * I2 => I1 *Int I2
   rule I1 / I2 => I1 /Int I2 requires I2 =/=Int 0
 endmodule
-```
-
-Compile this file with following command:
-
-```
-kompile Exercise.md --main-module LESSON-07-EX2
 ```
