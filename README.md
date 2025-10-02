@@ -1,3 +1,5 @@
+There is an `Exercise.md` file in each lesson directory with exercises for that lesson in section 1. You could check them.
+
 ---
 copyright: Copyright (c) Runtime Verification, Inc. All Rights Reserved.
 ---
